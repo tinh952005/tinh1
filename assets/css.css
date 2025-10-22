@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+    margin: 0
+    ;
+}
+.tinh{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.4;
+}
+.box{
+    display: inline-block;
+    background-color:black;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
