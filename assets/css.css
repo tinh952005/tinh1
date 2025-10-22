@@ -1,34 +1,55 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 body{
+font-family: "Roboto", sans-serif;
+  display: flex;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.tinh {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 48px rgba(12, 244, 160, 0.2);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+} 
+.chung{
     display: flex;
-    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:  100vh;
-    margin: 0
-    ;
 }
-.tinh{
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border: 2px solid black;
-    background-color: white;
-    border-radius: 20px;
-    opacity: 0.4;
+.tk{
+    margin-bottom: 5px;
+    color: rgb(14, 2, 16);
+    font-size: 50px;
+    padding-bottom: 40px;
 }
-.box{
-    display: inline-block;
-    background-color:black;
-    margin: 10px;
-    color: white;
-    padding: 10px;
+.tk1 , .mk1{
+    border-radius: 10px;
+    font-size: 15px;
+    height: 45px;
+    width: 250px;
+}
+.dangnhap{
+    margin-top: 50px;
+    background-color: #4CAD50;
+    width: 200px;
+    height: 40px;
     font-size: 20px;
-    border-radius: 20px;
-    
+    color: white;
+    border-radius: 25px;
 }
+
