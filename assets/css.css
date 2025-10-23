@@ -70,6 +70,7 @@ body{
   border-radius: 999px;
   padding: 10px 10px;
   border: 1px solid black;
+  background-color: white;
 }
 .thongtin a:hover{
   background-color: black;
